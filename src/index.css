@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header{
+    background-color: aquamarine;
+}
+.backgrd_img{
+    position: fixed;
+    top:0;
+    left:0;
+    object-fit: cover;
+    z-index: -1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo{    
+        position: absolute;
+        top: 2px; 
+        left: 1px; 
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.548), #1a1a1a7a, rgba(0, 0, 0, 0.483));
+        z-index: 10;
+    }
+.form_one{
+    position: absolute;
+    padding: 24px;
+    background-color: black;
+    opacity: 0.8;
+    height: 380px;
+    width: 300px;
+    display: grid;
+    margin-top: 150px;
+    margin-left: 600px;
+    border-radius: 10px;    
 }
+.box_three{
+    padding: 4px;
+    border-radius: 6px;
+    height: 40px;
+    width: 280px;
+    background-color: #d3d3d3;
+    color: black;
+    margin-bottom: 18px;
+}
+
+.box_one{
+    padding: 4px;
+    border-radius: 6px;
+    height: 40px;
+    width: 280px;
+    background-color: #d3d3d3;
+    color: black;
+    margin-bottom: 18px;
+}
+
+.box_two{
+    padding: 4px;
+    border-radius: 6px;
+    height: 40px;
+    width: 280px;
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    border-top: black;
+    border-left: black;
+    margin-top: 24px;
+    text-align: center;
+    height: 50px;
+    width: 295px;
+    border-radius: 6px;
+}
+
+.text{
+    margin-top: 0px;
+    color: white;
+    font-size: 40px;    
+}
+
+.text_p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
