@@ -13,7 +13,7 @@
         position: absolute;
         top: 0px; 
         left: 0px; 
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.89), #1a1a1a97, rgba(0, 0, 0, 0.019));
+        background: linear-gradient(to bottom, rgb(0, 0, 0), #1a1a1ac1, rgba(0, 0, 0, 0.041));
         z-index: 10;
         width: 100vw;
         display: flex;
@@ -111,7 +111,9 @@
     padding-left: 64px;
     position: absolute;
     color: #848482;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.89), #1a1a1a97, rgba(0, 0, 0, 0.019));
+    aspect-ratio: 14/9;
+    z-index: 50;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.74), #1a1a1a97, rgba(0, 0, 0, 0.019));
 
     
 }
@@ -153,4 +155,33 @@
     aspect-ratio: 16/9;
     height: auto;
     
+}
+
+
+.listtwo {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+}
+.list{
+    padding: 8px;
+    color: white;       
+}
+.card{
+    padding: 4px;
+}
+.movieList{
+    margin-top: -160px;
+    width: 100vw;
+
+}
+.secmovieList{
+    background-color: black;
+    padding-left: 12px;
+}
+.card_img{
+    width: 160px;
+}
+.user_b{
+    z-index: 10;
 }

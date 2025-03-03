@@ -10,7 +10,7 @@ const MainContainer = () => {
     console.log(mainMovie);
     const {original_title, overview, id} = mainMovie;
   return (
-    <div>
+    <div className='main'>
       <VedioTitle title={original_title} overview={overview}/>
       <VedioBackgrd movieId={id}/>
 
@@ -18,4 +18,4 @@ const MainContainer = () => {
   )
 }
 
-export default MainContainer
+export default MainContainer;

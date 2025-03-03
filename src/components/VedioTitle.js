@@ -10,7 +10,7 @@ const VedioTitle = ({title, overview}) => {
             <button className='more_info'>ℹ  More info</button>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default VedioTitle
