@@ -33,7 +33,13 @@
 -Build movie Card
 -Found out TMDB image CDN url
 -made the browse looks amazind through css
--usePopularMovies custom hook
+-usePopularMovies custom 
+-GPT search button
+-GPT search Page
+-GPT search bar
+-(BONUS) Multi-language Feature in our App
+-Integrate GPT Api's
+
 
 
 # Features
